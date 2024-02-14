@@ -54,6 +54,7 @@ try {
 
 } catch {
 
+    Write-Host -ForegroundColor Red "[-] Erro:" $_.Exception.Message
     Write-Host -ForegroundColor Red "[-] Um erro ocorreu. Aperte enter para encerrar a aplicacao"
     Read-Host
 }
