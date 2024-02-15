@@ -26,7 +26,7 @@ $fileName = "superDuperVanilla.zip"
 $filePath = Join-Path -Path $downloadsDirectory -ChildPath $fileName
 
 # Caminho para a pasta .minecraft/shaders
-$minecraftShadersDirectory = "$env:APPDATA\.minecraft\shaders"
+$minecraftShadersDirectory = "$env:APPDATA\.minecraft\shaderpacks"
 
 Write-Host -ForegroundColor Yellow "[!] Verificando se possui a pasta shaders na .minecraft..."
 if (-not (Test-Path $minecraftShadersDirectory)) {
